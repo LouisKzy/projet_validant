@@ -1,0 +1,163 @@
+/* -------------------------------page entière -----------------------------------------------/*
+/* .page_entiere */
+
+
+a {
+  text-decoration: none;
+  color: #000000DE;
+}
+
+a:hover{
+  text-decoration: underline;
+}
+
+
+
+/* -------------------------------Barre du haut--------------------------------------------- */
+
+
+.barre_du_haut{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+/*--------------- barre gmail et image----------- */
+.gm_img_barre{
+  display: flex;
+  justify-content: flex-end;
+  line-height: 24px;
+}
+/* --- barre gmail --- */
+
+.gm_barre{
+  margin-right: 20px;
+}
+.Gmail{
+  color: #000000DE;
+}
+
+/*--- barre images --- */
+.img_barre{
+  margin-right: 20px;
+  text-decoration: none;
+}
+.Images{
+  color: #000000DE;
+  text-decoration: none;
+}
+/*-------------- barre application et conexion -----------------*/
+.app_cnx{
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 20px;
+  line-height: 24px;
+}
+/*--- barre svg ---*/
+/* gestion du svg */
+.app img {
+  width: 32px;
+  height: 50px;
+  margin-right: 20px;
+  color: #000000DE;
+}
+.app{
+  content: "";
+  top: -4px;
+  bottom: -4px;
+  left: -4px;
+  right: -4px;
+}
+
+/* --- barre Connexion --- */
+
+.Connexion{
+  background-color: #1a73e8;
+  border-radius: 5px; /* pour creer des coins arrondis */
+  padding: 0.8em 1.75em ;
+  text-align: center; /* pour centrer le texte horizontalement */
+  color: white; /* pour changer la couleur du texte en blanc */
+  font-weight: bold; /* pour mettre en gras le texte */
+  line-height: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  text-decoration: none;
+}
+/*---------------------------------- rectangle haut-------------------------- */
+.rectangle_haut{
+  width: auto;
+  height: calc(100%- 560px);
+  max-height: 290px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+/*--------------------------------- padding central-------------------------- */
+
+.padding_central{
+  padding: 20px;
+}
+
+/*--------------- rectagngle de recherche -------------*/
+.rectangle_recherche{
+  width: 1046px;
+  height: 40px;
+  border-color: lightgray;
+  border-style: solid;
+  border-radius: 20px;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  column-width: 2;
+  justify-content: center;
+}
+.search-box{
+  width: 945px;
+  height: 38.5px;
+  border: none;
+  border-radius: 20px;
+  display: flex;
+}
+/*----------- rectangle bouttons----------------------*/
+.rectangle_bouttons{
+  width: 360px;
+  height: 58px;
+  display: flex;
+  justify-content: center;
+
+}
+.rechercher{
+  margin: 11px 4px;
+  padding: 0px 16px;
+  width: 143.16px 36px;
+  background: #F8F9FA;
+  border: none;
+}
+.lucky{
+  margin: 11px 4px;
+  padding: 0px 16px;
+  width: 143.16px 36px;
+  background: #F8F9FA;
+  border: none;
+  
+}
+/* ----------------- rectangle bas --------------*/
+.rectangle_bas{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 187px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+} 
+.barreba_droite{
+  display: flex;
+  width: 200px;
+}
+.barreba_gauche{
+  display: flex;
+  align-self: flex-end;
+  width: 200px;
+
+}
